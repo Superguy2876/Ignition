@@ -1,0 +1,31 @@
+Todo
+
+File/Folder Structure generator
+
+Structure Designer
+  Naming schemes
+  Input
+
+  XML Serialization
+    Export
+    Import
+
+
+Generator
+  Select Structure
+  Autoload previous
+  
+  Destination
+
+  Generation Algorithm
+    Topdown
+    Alphabetical
+    Detect existing
+
+    Logging
+      Text
+      Excel
+      Google Docs?
+
+
+
