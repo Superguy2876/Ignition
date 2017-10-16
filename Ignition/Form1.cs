@@ -40,7 +40,7 @@ namespace Ignition
                 MessageBox.Show("Please enter text into the Text boxes.");
                 return;
             }
-            string newDirectory = userPath + "\\Google Drive\\ClientFolder\\"
+            string newDirectory = userPath + "\\Google Drive\\Client Folders\\"
                 + tbClientName.Text + "\\" + year + " " + tbPurpose.Text + "\\";
 
             if (Directory.Exists(newDirectory))
@@ -69,6 +69,8 @@ namespace Ignition
                     return;
                 }
             }
+
+            File.Create(newDirectory + "Emails\\Copied Emails.docx");
 
             tmrPB.Interval = new Random().Next(1, 6);
             tmrPB.Enabled = true;
